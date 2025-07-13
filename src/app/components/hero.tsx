@@ -5,11 +5,11 @@ import avatar from '../assests/images/avatar.jpg'; // Use your illustration
 const Hero = () => (
   <section className={styles.hero}>
     <div className={styles.left}>
-      <p className={styles.greeting}>HI THERE <span>👋</span> I'M</p>
+      <p className={styles.greeting}>HI THERE <span>👋</span> I&apos;M</p>
       <h1 className={styles.name}>Saakshi<br />Das</h1>
       <h2 className={styles.role}>SOFTWARE DEVELOPER + DATA ANALYST <span>👩🏽‍💻</span></h2>
       <p className={styles.desc}>
-        I'm a professional Software developer with front end development skills and data analysis skills.
+        I&apos;m a professional Software developer with front end development skills and data analysis skills.
       </p>
       <button className={styles.hireMe}>Hire Me</button>
     </div>
