@@ -70,4 +70,53 @@
     margin-top: 1rem;
     width: 100%;
   }
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    z-index: 200;
+  }
+  
+  .bar {
+    width: 28px;
+    height: 3px;
+    background: #fff;
+    margin: 4px 0;
+    border-radius: 2px;
+    transition: 0.3s;
+  }
+  
+  @media (max-width: 900px) {
+    .hamburger {
+      display: flex;
+    }
+    .navLinks {
+      display: none;
+      flex-direction: column;
+      gap: 1.2rem;
+      width: 100%;
+      margin-top: 1rem;
+      background: #181818;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      padding: 1.5rem 0;
+      z-index: 100;
+      border-bottom: 1px solid #222;
+    }
+    .showMenu {
+      display: flex;
+    }
+    .cta {
+      margin-top: 1rem;
+      width: 100%;
+    }
+    .navbar {
+      position: relative;
+    }
+  }
 }
