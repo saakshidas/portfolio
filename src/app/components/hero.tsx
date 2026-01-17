@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
+import mefav from "../images/mefav.jpg";
 
 // You can replace this with your actual image path or a placeholder
 // Assuming we have an image at public/avatar.jpg or similar. 
@@ -43,7 +44,7 @@ const Hero = () => {
           </h1>
 
           <p className="text-lg text-gray-400 mb-8 max-w-lg leading-relaxed">
-            I'm Saakshi Das, a Software Developer & Data Analyst. I build accessible,
+            I'm Saakshi Das, a Software Developer. I build accessible,
             pixel-perfect, performant, and premium web experiences.
           </p>
 
@@ -113,11 +114,19 @@ const Hero = () => {
             {/* Glowing Gradient Blob */}
             <div className="absolute inset-0 bg-gradient-to-tr from-indigo-600/30 to-purple-600/30 blur-3xl rounded-full" />
 
+
+
             {/* Main Image Placeholder or Actual Image */}
             <div className="relative w-full h-full rounded-3xl overflow-hidden glass-card border border-white/10 bg-white/5 backdrop-blur-sm p-4 transform rotate-3 hover:rotate-0 transition-transform duration-500">
-              {/* Replace with your actual image */}
-              <div className="w-full h-full bg-gray-800/50 rounded-2xl flex items-center justify-center text-gray-500">
-                <span className="text-xl"><img src="src\app\images\mefav.jpg" alt="profile picture" /></span>
+              <div className="w-full h-full relative rounded-2xl overflow-hidden">
+                <Image
+                  src={mefav}
+                  alt="Saakshi Das"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 500px"
+                  priority
+                />
               </div>
             </div>
           </div>
