@@ -44,7 +44,7 @@ const Hero = () => {
           </h1>
 
           <p className="text-lg text-gray-400 mb-8 max-w-lg leading-relaxed">
-            I'm Saakshi Das, a Software Developer. I build accessible,
+            I&apos;m Saakshi Das, a Software Developer. I build accessible,
             pixel-perfect, performant, and premium web experiences.
           </p>
 

@@ -17,7 +17,7 @@ const Contact = () => {
           className="text-center mb-16"
         >
           <h2 className="text-sm font-medium text-indigo-400 mb-2 uppercase tracking-wider">Get in Touch</h2>
-          <h3 className="text-3xl md:text-4xl font-bold text-white">Let's Work Together</h3>
+          <h3 className="text-3xl md:text-4xl font-bold text-white">Let&apos;s Work Together</h3>
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
@@ -29,7 +29,7 @@ const Contact = () => {
           >
             <h4 className="text-2xl font-bold text-white mb-6">Contact Information</h4>
             <p className="text-gray-400 mb-8 leading-relaxed">
-              Have a project in mind or just want to say hi? I'm always open to discussing new projects,
+              Have a project in mind or just want to say hi? I&apos;m always open to discussing new projects,
               creative ideas or opportunities to be part of your visions.
             </p>
 

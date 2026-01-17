@@ -55,7 +55,7 @@ const About = () => {
             mastering modern frontend frameworks and backend technologies to deliver complete solutions.
           </p>
           <p className="text-gray-400 leading-relaxed mb-8">
-            When I'm not coding, I enjoy exploring new technologies, contributing to open-source,
+            When I&apos;m not coding, I enjoy exploring new technologies, contributing to open-source,
             and solving algorithmic challenges.
           </p>
 
